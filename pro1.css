@@ -1,0 +1,231 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed Navigation Bar */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3498db;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #2980b9;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+/* Menu Links */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect for Menu Items */
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Content Sections */
+section {
+    padding: 100px 20px;
+    height: 100vh; /* Each section takes the full viewport height */
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+}
+
+#home {
+    background-color: #f2f2f2;
+    padding: 60px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#home h1, #about h1, #contact h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#home p, #services p, #contact p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    padding-top: 10px;
+}
+
+.mission, .values, .team, .service-item {
+    margin: 20px 0;
+}
+
+.service-item {
+    background-color: #e74c3c;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.job-position {
+    background-color: #2ecc71;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.job-position a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.job-position a:hover {
+    background-color: #2ecc71;
+}
+
+/* Contact Form */
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}
+
+#careers{
+    text-align: center;
+    padding: 30px;
+    margin-top: 180px;
+}
+
+.highlights ul{
+    list-style-type: none;
+
+}
+ .highlights li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+ .highlights h2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+ }
+
+ .highlightsp{
+    padding-top: 10px;
+    padding-bottom: 0px;
+ }
+
+ #about {
+    text-align: center;
+    background-color: #e3e3e3;
+    font-size: 1.5em;
+    padding-top: 70px;
+    list-style-type: none;
+
+    
+
+ }
+
+ .values ul{
+    
+    list-style-type: none;
+    line-height: 30px;
+ }
+ 
+.values h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.mission h2{
+    padding: 10px;
+}
+
+.team h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#services {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#careers{
+    text-align: center;
+    padding-top:7.5pc ;
+    font-size: 1.5em;
+}
+
+.job-position{
+    padding: 30px;
+    line-height: normal;
+    box-sizing: content-box;
+}
+
+#contact{
+    font-size: 1.2em;
+    background-color: #ecf0f1;
+    padding: 60px;
+    text-align: center;
+}
+
+.contact-details p {
+    color: #34495e;
+}
+
+.contact-form input, .contact-form textarea {
+    border: 1px solid #bdc3c7;
+}
+
+.contact-form button {
+    background-color: #e67e22;
+}
+
+.contact-form button:hover {
+    background-color: #d35400;
+}
